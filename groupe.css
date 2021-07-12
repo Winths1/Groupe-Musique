@@ -1,0 +1,125 @@
+@font-face {
+  font-family: DevilBreezeM;
+  src: url(./font/Devil\ Breeze\ Medium.ttf);
+}
+@font-face {
+  font-family: DevilBreezeB;
+  src: url(./font/Devil\ Breeze\ Bold.ttf);
+}
+@font-face {
+  font-family: DevilBreezeL;
+  src: url(./font/Devil\ Breeze\ Light.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  font-family: Raleway;
+  font-size: 18px
+}
+
+ul .nav-item .nav-link{
+  font-size: 22px;
+  font-family: DevilBreezeB;
+}
+
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.idfont{
+  font-family: DevilBreezeB;
+  font-size: 44px;
+}
+
+/**************************************/
+/**************HEADER******************/
+
+h1{
+  text-align: center;
+}
+
+.formulaire{
+  margin-top: 5%;
+}
+
+/**************************************/
+/***********MAIN**********************/
+main{
+  margin: 2.5%;
+}
+
+.memb{
+  margin-bottom: 5px;
+}
+
+.container_membres{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.logo{
+  height: 50px;
+}
+
+.img_container{
+  margin: 5% auto;
+}
+.img_carousel{
+  border: 5px #212529 solid;
+}
+
+.stylecard{
+  width: 100%;
+  margin: 1%;
+  
+}
+.stylecard img{
+  display: block;
+}
+
+.center{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.marginmod{
+  margin: 1% auto;
+  width: 60%;
+}
+.alb{
+  text-align: center;
+  font-style: italic;
+}
+
+.db{
+  font-family: DevilBreezeM;
+}
+
+/**************************************/
+/**************FOOTER******************/
+
+.footer {
+  margin-top: 5%;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  background-color: #212529;
+}
+.footer p {
+  padding: 15px;
+  display: block;
+}
+
+
+
